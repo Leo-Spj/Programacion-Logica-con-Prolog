@@ -2,11 +2,13 @@
 
 ## Ejecución
 
-Para ejecutar y reutilizar los codigos prolog.
+Para ejecutar y probar un archivo de prolog:
 
 ```bash
 swipl -s prueba.pl
 ```
+el parametro `-s` es para indicar que archivo se va a ejecutar.
+
 
 Otra forma de ejecutarlo es:
 
@@ -15,7 +17,6 @@ swipl
 consult('prueba.pl').
 padre(juan, maria).
 ```
-el parametro `-s` es para indicar que archivo se va a ejecutar.
 
 
 Para salir de la consola de prolog:
