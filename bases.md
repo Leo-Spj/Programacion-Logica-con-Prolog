@@ -31,6 +31,9 @@ madre(maria, pedro).
 - jupider y marte son **expresiones** --> *relacion* entre entidades 
 - es_mas_grande(Jupider, Marte) -- mas_grande(j, m) -- G(j, m)
 
+
+Universal y existencial son tipos de: cuantificadores
+
 las constante son los objetos que se relacionan entre si, las variables son los objetos que se relacionan con las constantes. 
 
 "socarates es sabio y prudente"

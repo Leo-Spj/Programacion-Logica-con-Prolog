@@ -1,1 +1,2 @@
 padre(juan, maria).
+
