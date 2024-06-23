@@ -32,3 +32,6 @@ mas_grande(marte, luna).
 
 
 mucho_mas_grande(X,Y):- mas_grande(A,B), mas_grande(B,C).
+
+recur_mucho_mas_grande(X,Y):- mas_grande(X,Y).
+recur_mucho_mas_grande(X,Y):- mas_grande(X,Z), recur_mucho_mas_grande(Z,Y).

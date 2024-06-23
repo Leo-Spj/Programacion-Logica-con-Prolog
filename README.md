@@ -18,6 +18,12 @@ consult('prueba.pl').
 padre(juan, maria).
 ```
 
+Para compilar y tenerlo como ejecutable:
+
+```bash
+swipl -o prueba -c prueba.pl
+```
+
 
 Para salir de la consola de prolog:
 
