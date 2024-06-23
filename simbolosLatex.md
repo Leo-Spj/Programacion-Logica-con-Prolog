@@ -1,3 +1,27 @@
+
+## Simbolos de Logica Proposicional
+
+$\land$: y (conjuncción)
+
+$\lor$: o (disyunción)
+
+$\lnot$: no (negación)
+
+$\rightarrow$: implica (implicación)
+
+$\leftrightarrow$: si y solo si (bicondicional)
+
+$\forall$: para todo (cuantificador universal)
+
+$\exists$: existe (cuantificador existencial)
+
+$\top$: verdadero (tautología)
+
+$\bot$: falso (contradicción)
+
+
+## Simbolos de Conjuntos
+
 $\in$: pertenece a
 
 $\notin$: no pertenece a
@@ -33,24 +57,3 @@ $\equiv$: equivalente
 $\neq$: no es igual
 
 $\approx$: aproximadamente igual a
-
----------------------
-
-
-$\land$: y (conjuncción)
-
-$\lor$: o (disyunción)
-
-$\lnot$: no (negación)
-
-$\rightarrow$: implica (implicación)
-
-$\leftrightarrow$: si y solo si (bicondicional)
-
-$\forall$: para todo (cuantificador universal)
-
-$\exists$: existe (cuantificador existencial)
-
-$\top$: verdadero (tautología)
-
-$\bot$: falso (contradicción)
