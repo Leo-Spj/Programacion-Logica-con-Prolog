@@ -53,7 +53,7 @@ located_in(X, northAmerica):- located_in(X, canada).
 
 
 % Arbol Genealogico
-
+% diagrama en: ./busquedaProfundidad.md 
 es_progenitor(jose, jorge).
 es_progenitor(jose, sara).
 es_progenitor(jose,luis).
