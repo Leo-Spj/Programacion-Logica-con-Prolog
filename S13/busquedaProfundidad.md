@@ -2,38 +2,34 @@
 Diagramas por profundidad
 
 ```mermaid
-graph TD
-    subgraph Primera_Generacion
-    Maria
-    Jose
-    end
+ graph TD
+ 
+ Maria
+ Jorge
 
-    subgraph Segunda_Generacion
-    Jorge
-    Sara
-    Luis
-    Pedro
-    end
+ Jose --> Jorge
+ Jose --> Sara
+ Jose --> Luis
+ Jose --> Pedro
 
-    subgraph Tercera_Generacion
-    Mario
-    Rosa
-    Isabel
-    Hilda
-    end
+ Maria --> Jorge
+ Maria --> Sara
+ Maria --> Luis
+ Maria --> Pedro
 
-    subgraph Cuarta_Generacion
-    Raul
-    Erika
-    Saul
-    Flor
-    end
+ Jorge --> Mario
+ Jorge --> Rosa
+ Sara --> Mario
+ Sara --> Rosa
 
-    Primera_Generacion --> Segunda_Generacion
-    Jorge & Sara --> Mario & Rosa
-    Luis --> Isabel
-    Pedro --> Hilda
-    Mario --> Raul & Erika
-    Hilda --> Saul & Flor
+ Mario --> Raul
+ Mario --> Erika
+
+ Luis --> Isabel
+
+ Pedro --> Hilda
+
+ Hilda --> Saul
+ Hilda --> Flor
 
 ```
