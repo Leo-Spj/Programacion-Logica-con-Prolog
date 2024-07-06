@@ -51,17 +51,17 @@ X = carlos.
 
 % ----------------------
 
-% 6 y 12 son divicibles por 2 y 3
-% 4 es divicible por 2
-% indicar que numeros son divicibles por 6
+% 6 y 12 son divisibles por 2 y 3
+% 4 es divisible por 2
+% indicar que numeros son divisibles por 6
 
-divicible(6, 2).
-divicible(6, 3).
-divicible(12, 2).
-divicible(12, 3).
-divicible(4, 2).
+divisible(6, 2).
+divisible(6, 3).
+divisible(12, 2).
+divisible(12, 3).
+divisible(4, 2).
 
-div(X, 6):- divicible(X, 2), divicible(X, 3).
+div(X, 6):- divisible(X, 2), divisible(X, 3).
 /*
 1 ?- dev_seis(X,6).
 X = 6 ;
