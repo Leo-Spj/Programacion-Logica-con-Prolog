@@ -68,3 +68,38 @@ X = 12 ;
 false.
 */
 
+
+% 3)
+
+% Represente en Prolog los siguientes hechos:
+
+% Rolando quiere a Maria
+% Rolando quiere a Belen
+% Manuel quiere a Belen
+% Maria quiere a Rolando
+% Todos quieren a Juan y a María.
+% Todo el mundo se quiere a sí mismo.
+% Alguien quiere a Juan y a Rolando
+% Alguien quiere a Maria.
+% Alguien quiere a todos los demás
+
+% Realice las siguientes consultas:
+
+% ¿Quiere Manuel a María?
+% ¿Quiere Manuel a María y a Rolando?
+% ¿Quiere Manuel a alguien?
+% ¿Quienes quieren a Maria?
+% ¿Quienes quieren a Rolando y a María?
+% ¿Quienes son los que se quieren mutuamente?
+
+
+
+% 4) Dada una lista, devolver la lista inversa.
+inversa([],[]).
+inversa([X|Xs],Ys):- inversa(Xs,Zs), append(Zs,[X],Ys).
+
+
+% 5) dada una lista eliminar los 2 ultimos elementos de dicha lista.
+elimina2Ultimos([X,Y],[]).
+elimina2Ultimos([X|Xs],[X|Ys]):- elimina2Ultimos(Xs,Ys).
+% elimina2Ultimos([1,2,3,4,5],X).
